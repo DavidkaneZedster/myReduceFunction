@@ -20,4 +20,4 @@ const myReduceResult = myReduceFunction(
   
 const reduceResult = workersSalary.reduce((acc, worker) => worker.salary > acc.salary ? worker : acc)
 
-console.log('myReduceOutputValue = ', myReduceResult, '\nReduceOutputValue =', reduceResult)
+console.log('myReduceOutputValue = ', myReduceResult, '\n reduceOutputValue =', reduceResult)
